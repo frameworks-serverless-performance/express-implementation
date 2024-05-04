@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "4.19.2",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.569.0",
+    "debug": "2.6.9",
+    "express": "4.19.2",
+    "morgan": "1.9.1"
+  }
+}
