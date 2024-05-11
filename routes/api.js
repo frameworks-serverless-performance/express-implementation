@@ -66,7 +66,7 @@ router.post('/parse', function(req, res, next) {
 router.get('/query', async function (req, res, next) {
     const initialPrimaryKey = req.query.initialPrimaryKey;
     let nextPrimaryKey = initialPrimaryKey;
-    counter = 0;
+    let counter = 0;
     do {
         const command = new GetItemCommand({
             TableName: "round-trip-table",
